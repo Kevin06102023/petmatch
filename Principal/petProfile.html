@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Mascota</title>
+    <link rel="stylesheet" href="../Stilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Perfil de Mascota</h1>
+    </header>
+    <main>
+        <form id="petProfileForm">
+            <label for="petName">Nombre:</label>
+            <input type="text" id="petName" required>
+
+            <label for="species">Especie:</label>
+            <input type="text" id="species" required>
+
+            <label for="breed">Raza:</label>
+            <input type="text" id="breed" required>
+
+            <label for="age">Edad:</label>
+            <input type="number" id="age" required>
+
+            <label for="gender">Género:</label>
+            <select id="gender" required>
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+            </select>
+
+            <button type="submit">Guardar Perfil</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Pet Matcher</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
